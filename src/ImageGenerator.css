@@ -1,0 +1,67 @@
+
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:6px;
+  padding: 20px;
+  box-shadow: 0 10px 20px black;
+  background-color:rgb(229, 57, 117);
+  width: 100%;
+  max-width: 600px;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top:-2rem;
+  margin-bottom:0.5rem;
+  
+
+}
+
+
+.header{
+    color:whitesmoke;
+    padding-bottom: 30px;
+  
+}
+
+.MuiTextField-root {
+  width: 100%;
+}
+.MuiButton-root {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  background: linear-gradient(45deg, 30%,90%);
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+.MuiButton-root:hover {
+  transform: translateY(-2px);
+}
+.loading-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+}
+.image-container {
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  height: auto;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
