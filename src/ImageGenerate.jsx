@@ -83,7 +83,7 @@ export default function App() {
       
       <div className="SearchBox">
         <h2 className="header">
-          This is Simra website Generate image by ai
+          generate image with vinesh
         </h2>
         <form onSubmit={handleSubmit}>
           <div className="field">
